@@ -15,48 +15,46 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav  role="navigation" id="top-nav">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">Donath</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#description">Über uns</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#description">Über uns</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger red-text text-darken-3"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center red-text text-darken-3">Willkommen bei Firma Donath</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <h5 class="header col s12 light">Wir sind eine familiäre Hobbywerkstatt mit insgesamt 50 Jahre Erfahrung. </h5>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="./img/" alt="Unsplashed background img 1"></div>
   </div>
 
 
-  <div class="container">
+  <div class="container" id="description">
     <div class="section">
 
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h2 class="center red-text text-darken-3"><i class="material-icons">album</i></h2>
+            <h5 class="center">Refienservice</h5>
 
             <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
@@ -64,8 +62,8 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h2 class="center red-text text-darken-3"><i class="material-icons">build</i></h2>
+            <h5 class="center">Reparatur</h5>
 
             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div>
@@ -73,8 +71,8 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h2 class="center red-text text-darken-3"><i class="material-icons">devices</i></h2>
+            <h5 class="center">Inspektion</h5>
 
             <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
@@ -86,43 +84,60 @@
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="./img/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img class="responsive-img" src="./img/background1a.jpg" alt="Photo by Malte Lu from Pexels"></div>
   </div>
 
-  <div class="container">
+  <div class="container" id="contact">
     <div class="section">
 
+
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <div class="col s12 l5">
+          <h3><i class="mdi-content-send red-text text-darken-3"></i></h3>
+          <h4>Kontaktdaten</h4>
+          <div class="row">
+            <div class="col s12">
+              <h6>So erreichen Sie uns:</h6>
+              <ul>
+                <li>
+                  <span class="material-icons left">mail</span>
+                  <span><strong>E-mail:</strong> falkdonath@t-online.de</span>
+                </li>
+                <li>
+                  <span class="material-icons left">phone</span>
+                  <span><strong>Telefon:</strong> 555-5555</span>
+                </li>
+                <li>
+                  <span class="material-icons left">phone_iphone</span>
+                  <span><strong>Handy:</strong> 0176235236</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col s12">
+              <h6>So finden Sie uns:</h6>
+              <ul>
+                <li>Benediktinerstr. 54</li>
+                <li>44287</li>
+                <li>Dortmund - Aplerbeck</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col s12 l6 offset-l1 hide-on-small-only">
+          <a href="https://www.google.com/maps/place/Benediktinerstra%C3%9Fe+54,+44287+Dortmund/@51.4872261,7.5556024,17z/data=!3m1!4b1!4m5!3m4!1s0x47b916867df8d0bd:0xe2e3af3ac8a684e!8m2!3d51.4872261!4d7.5577911" target="_blank" title="In Google Maps öffnen"><img src="./img/map.jpg" alt="google-maps-location" width="800"></a>
+        </div>
+
 
     </div>
+  </div>
   </div>
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="./img/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img class="responsive-img" src="./img/background3a.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer grey darken-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -131,16 +146,8 @@
 
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
+        
+        <div class="col l3 s12 offset-l3">
           <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
@@ -151,9 +158,9 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright grey darken-4">
       <div class="container">
-      Made by Tamas Szitas via <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by Tamas Szitas via <a class="red-text text-darken-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
